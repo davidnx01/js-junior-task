@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family: 'Poppins';
+}
+
+body {
+  background: #1e1e1e;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 500px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .625rem;
+  height: 47px;
+  margin-bottom: 1rem;
+}
+
+.section-row-card {
+  height: 28px;
+  margin-block: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .625rem;
+}
+
+input {
+  background: transparent;
+  outline: 1px solid #4d4d4d;
+  height: 100%;
+  padding-inline: 1.125rem;
+  max-width: 300px;
+  width: 100%;
+  color: #b3b3b3;
+  font-size: 1rem;
+  border: none;
+  transition: 0.12s ease-in;
+}
+
+input:focus {
+  outline: 1px solid #747474;
+}
+
+button {
+  background: rgb(78, 9, 75);
+  outline: 1px solid rgb(78, 9, 75);
+  border: none;
+  height: 100%;
+  width: 140px;
+  font-size: 1rem;
+  transition: .12s ease-in
+}
+
+button:hover {
+  background: rgb(66, 8, 63);
+  outline: 1px solid rgb(66, 8, 63);
+}
+
+.result-row p, label {
+  color: #b3b3b3;
+  font-weight: 300;
+}
+
+.result-row p span {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+hr {
+  margin-block: 2rem;
+}
+
+.message {
+  margin-top: 5rem;
+  text-align: center;
+  text-decoration: underline;
+}

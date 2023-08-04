@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS junior-task</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+
+    <h1>Dávid Roman</h1>
+
+    <div>
+      <div class="section-row">
+        <input 
+          id="clientString"
+          placeholder="Napíšte ľubovolné slovo..."
+          type="text"
+        />
+        <button onclick="capitalizeMe()">
+          Capitalize!
+        </button>
+      </div>
+      <div class="result-row">
+        <p>Výsledok: <span id="capitalizedVysledok"></span></p>
+      </div>
+    </div>
+
+    <hr color="#4d4d4d" size="1">
+
+    <div>
+      <div class="section-row">
+        <input 
+          id="clientWord"
+          placeholder="Napíšte ľubovolné slovo..."
+          type="text"
+        />
+        <button onclick="checkPalindrome()">
+          Is Palindrome?
+        </button>
+      </div>
+      <div class="result-row">
+        <p>Výsledok: <span id="palindromedVysledok"></span></p>
+      </div>
+    </div>
+
+    <hr color="#4d4d4d" size="1">
+
+    <div class="card-container" id="cardContainer">
+      ####-####-####-####
+    </div>
+    <div class="section-row-card">
+      <label>Číslo karty:</label>
+      <input 
+        type="text"
+        maxlength="16" 
+        id="creditCardInput" 
+        onkeyup="updateCard()"
+      >
+    </div>
+
+    <p class="message">
+      <i>Task 3 a 4 sa nachádzajú v konzole</i>
+    </p>
+  </main>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
